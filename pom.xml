@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.walien</groupId>
-    <artifactId>dart-test</artifactId>
+    <artifactId>dart-bootstrap</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -14,8 +14,8 @@
     </properties>
 
     <modules>
-        <module>dart-test-srv</module>
-        <module>dart-test-ui</module>
+        <module>srv</module>
+        <module>ui</module>
     </modules>
 
     <profiles>
@@ -25,20 +25,20 @@
             </activation>
             <id>all</id>
             <modules>
-                <module>dart-test-srv</module>
-                <module>dart-test-ui</module>
+                <module>srv</module>
+                <module>ui</module>
             </modules>
         </profile>
         <profile>
             <id>server</id>
             <modules>
-                <module>dart-test-srv</module>
+                <module>srv</module>
             </modules>
         </profile>
         <profile>
             <id>ui</id>
             <modules>
-                <module>dart-test-ui</module>
+                <module>ui</module>
             </modules>
         </profile>
     </profiles>

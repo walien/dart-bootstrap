@@ -6,14 +6,14 @@
 
      <parent>
         <groupId>com.walien</groupId>
-        <artifactId>dart-test</artifactId>
+        <artifactId>dart-bootstrap</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dart-test-srv</artifactId>
+    <artifactId>ui</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>dart-test-srv</name>
+    <name>ui</name>
 
     <properties>
         <maven.compiler.target>1.7</maven.compiler.target>
