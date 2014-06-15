@@ -1,0 +1,10 @@
+*.log
+*.iml
+tmp
+packages
+build
+*.lock
+target
+atlassian-ide-plugin.xml
+.idea
+.DS_Store
